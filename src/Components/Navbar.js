@@ -1,11 +1,10 @@
-import React, { Component } from "react";
+import React from "react";
 
-class Navbar extends Component {
-    render() {
-        return (
-            <div>Hey here's the navbar</div>
-        )
-    }
+export function Navbar() {
+    return (
+        <nav class="navbar navbar-light bg-light">
+            <span class="navbar-brand mb-0 h1">Employee Zone</span>
+        </nav>
+    )
 }
 
-export default Navbar;
